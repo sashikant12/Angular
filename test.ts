@@ -1,0 +1,27 @@
+console.log("ok start");
+console.log(`         
+                         he he..........`);
+var a!:number ;
+console.log(a);
+a=12;
+console.log(a);
+var b!:number|boolean|any|string|null|undefined;
+console.log(b);
+b=null;
+console.log(b);
+b=12.32;
+console.log(b);
+b=12;
+console.log(b);
+b=true;
+console.log(b);
+b="qwe";
+console.log(b);
+var c:null|undefined;
+console.log(c);
+c=undefined;
+console.log(c);
+c=null;
+console.log(c);
+var d:boolean|1;
+console.log();
