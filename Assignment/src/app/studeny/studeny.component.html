@@ -1,0 +1,8 @@
+<p>student works!</p><br>
+<h1 [style.font-style]="isItalic ? 'italic' : 'normal'" [style.color]="isTextColorBlue ? 'blue' : 'red'">Olle olle </h1><br>
+<button (click)="toggleStyle()">Change</button><br>
+<hr>
+<H1>Prime</H1>
+<input #primeNumber   type="text" placeholder="PrimeNumber"> <br>
+<button (click)="checkPrime(primeNumber.value)">Check</button><br>
+<input   [value]="prime" placeholder="PrimeNumber"> <br>
